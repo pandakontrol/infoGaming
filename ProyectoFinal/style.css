@@ -1,0 +1,120 @@
+body {
+    /* background: -webkit-gradient(linear, left bottom, right top, from(#fc2c77), to(#6c4079)); */
+    background: -webkit-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    background: -moz-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    background: -o-linear-gradient(bottom left, #fc2c77 0%, #6c4079 100%);
+    background: linear-gradient(to top right, #fc2c77 0%, #6c4079 100%);
+    height: 100%;
+}
+
+header {
+    height: 10%;
+    width: 100%;
+    background-color: #34495e;
+    color: white;
+    display: inline-flex;
+    text-align: center;
+}
+
+.titulo {
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.menu {
+    margin-left: 65%;
+}
+
+#menu {
+    padding: 0;
+    text-decoration: none;
+    color: white;
+    float: right;
+}
+
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    /* font-family: Helvetica; */
+    font-size: 18px;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    background-color: #6c4079;
+    color: #fff;
+}
+
+#menu li a:hover {
+    background-color: #2586d7;
+    /* transform: scale(1.1);
+    padding-bottom: 12px; */
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+    border-radius: 50px;
+    border: white;
+}
+
+#textarea {
+    height: 150px;
+}
+
+.formulario {
+    padding-left: 900px;
+    margin: 0 auto;
+}
+
+#formuEmpresa {
+    margin-top: 10%;
+    height: 350px;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.anuncios {
+    width: 80%;
+    background-color: white;
+    height: 40%;
+}
+
+.anuncio {
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 80%;
+    padding-left: 30px;
+    background-color: white;
+    border: black solid;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.textos {
+    margin-left: 40px;
+}
+
+.azul {
+    padding-top: 20px;
+}
+
+#textarea {
+    outline: none;
+}
+
+#bienvenido {
+    margin-top: 30px;
+    margin-left: 5%;
+    font-size: 32px;
+}
+
+.inscribirse {
+    text-align: center;
+}
+
+.botones {
+    display: inline-flex;
+    margin-left: 10px;
+}
